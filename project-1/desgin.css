@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.img1 {
+    animation: slide1 5s infinite forwards;
+}
+
+.img2 {
+    animation: slide1 5s infinite forwards;
+}
+
+.img3 {
+    animation: slide1 5s infinite forwards;
+}
+
+@keyframes slide1 {
+    0% {
+        transform: translate(-95vw);
+      }
+      50% {
+        transform: translate(0vw);
+      }
+      100%{
+        transform: translate(95vw);
+      }
+}
+
+.vidoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+p {
+    color: beige;
+    background-color: black;
+    width: 95%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    text-align: justify;
+    margin: 2px;
+}
+
+
+.lorem300 p {
+    color: black;
+    background-color: cornsilk;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+#form,
+.same {
+    background-color: bisque;
+    text-align: center;
+    letter-spacing: 26px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.forminfo {
+    background-color: aliceblue;
+    width: 95%;
+    border: 2px dashed black;
+    border-radius: 5px;
+}
+
+.normal {
+    text-align: left;
+    color: black;
+    background-color: bisque;
+    box-sizing: border-box;
+}
+
+caption {
+    background-color: rgba(6, 177, 219, 0.801);
+}
+
+table {
+    background-color: azure;
+    width: 95%;
+    height: 10vh;
+}
+
+#tr {
+    background-color: bisque;
+}
+
+td {
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    padding: 1vw;
+    position: sticky;
+    top: 0;
+}
+
+.li {
+    display: inline;
+    color: white;
+    list-style: none;
+    padding: 5vw;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
