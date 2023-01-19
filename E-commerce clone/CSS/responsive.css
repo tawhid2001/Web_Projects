@@ -1,8 +1,5 @@
 @media screen and (max-width: 1000px) {
-    body {
-        background-color: red;
-    }
-
+  
     nav {
         flex-direction: column;
         height: 13vh;
