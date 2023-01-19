@@ -15,6 +15,10 @@ header {
     font-family: 'Lato', sans-serif;
 }
 
+body{
+    background-color: whitesmoke;
+}
+
 nav ul li {
     list-style: none;
     padding: 0 1vw;
@@ -72,6 +76,41 @@ nav ul {
 
 .container {
     min-height: calc(100vh - 7vh - 5vh);
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.cart{
+    max-width: 85vw;
+    margin: auto;
+    background-color: beige;
+}
+
+.carts{
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    overflow: scroll;
+}
+
+.cart-items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lines{
+    width: 12vw;
+}
+
+.slider img {
+    height: 50vh;
+    margin: 1vh auto;
 }
 
 footer {
