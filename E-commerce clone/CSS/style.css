@@ -82,7 +82,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-content: center;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .slider .img1 {
@@ -101,13 +101,13 @@ nav ul {
         transform: translate(10vw);
         z-index: 0;
     }
-    /* 50%{
+    50%{
         transform: translate(25vw);
         z-index: 0;
-    } */
+    }
     100%{
         z-index: 0;
-        transform: translate(40vw);
+        transform: translate(50vw);
     }
 }
 @keyframes slide2 {   
@@ -115,12 +115,12 @@ nav ul {
         transform: translate(-10vw);
         z-index: 1;
     }
-    /* 50%{
-        transform: translate(-25vw);
+    50%{
+        transform: translate(-24vw);
         z-index: 1;
-    } */
+    }
     100%{
-        transform: translate(-40vw);
+        transform: translate(-50vw);
         z-index: 1;
     }
 }
