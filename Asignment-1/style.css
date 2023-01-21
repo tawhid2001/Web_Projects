@@ -25,17 +25,23 @@ header {
 
 .top p {
     text-align: center;
-    color:white;
+    color: white;
     margin-bottom: 7vh;
 }
 
-.link{
+.link {
     display: flex;
     justify-content: center;
 }
 
+#link2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3vh;
+}
 
-.link a{
+
+.link a {
     text-decoration: none;
     color: white;
     padding: 2vh;
@@ -47,6 +53,7 @@ header {
     text-align: center;
     margin-top: 12vh;
     margin-bottom: 5vh;
+    padding: 5vw;
 }
 
 .info {
@@ -72,16 +79,115 @@ header {
     border-radius: 5px;
 }
 
-.input{
+.input {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 2vh;
 }
 
-.input input{
+.input input {
     width: 40vw;
     border: none;
     border-bottom: 1px solid black;
     text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vh;
+}
+
+.box {
+    width: 40vw;
+    height: 30vh;
+    margin: 2vw;
+    padding: 2vw;
+    font-size: 2vh;
+    text-align: justify;
+    border-radius: 5px;
+    padding-top: 5vh;
+}
+
+.box h4 {
+    margin-top: 5vh;
+}
+
+.box p {
+    margin-top: 5vh;
+}
+
+#box1 {
+    background-color: #4f9da642;
+}
+
+#box2 {
+    background-color: hsla(0, 100%, 67%, 0.329);
+}
+
+#box3 {
+    background-color: bisque;
+}
+
+.contribute {
+    display: flex;
+    justify-content: center;
+    margin: 7vh 4vh;
+}
+
+.contribute h1 {
+    margin-bottom: 5vh;
+}
+
+.contribute img {
+    width: 40vw;
+    padding: 2vw;
+}
+
+.contribute-arebox {
+    padding: 10vw;
+}
+
+.mailcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+}
+
+.Email input {
+    height: 6vh;
+}
+
+.Email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    width: 40vw;
+    height: 30vh;
+}
+
+.Email a {
+    text-decoration: none;
+    color: white;
+    padding: 2vh;
+    background-color: #FF5959;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 20vh;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+#footerh {
+    font-size: 3vh;
+    color: #FF5959;
 }
