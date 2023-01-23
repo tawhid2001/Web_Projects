@@ -6,6 +6,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+section{
+    margin-top: 50px;
+}
+
 /* Top banner Styles */
 .Top-Banner {
     background-color: #161616;
@@ -42,22 +46,39 @@ body {
     padding: 15px;
 }
 
-.img-container{
+.img-container {
     margin-top: 33px;
 
 }
 
-.img-container img{
+.img-container img {
     width: 581px;
     height: 613px;
 }
 
 /* blog section design */
 
-.menu{
+.menu {
     background-color: #161616;
+    width: 312px;
+    height: 312px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    position: sticky;
 }
 
-.option{
+.option {
     background: #FFFFFF;
+    width: 252px;
+    height: 64px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-decoration: none;
+    color: #161616;
 }
