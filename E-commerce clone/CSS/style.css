@@ -30,7 +30,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a :hover {
+nav ul li:hover a {
     font-weight: bolder
 }
 
@@ -69,7 +69,7 @@ nav ul {
     padding: 0 2vw;
 }
 
-.search button {
+.search button:hover {
     font-family: 'Lato', sans-serif;
     font-weight: bolder;
 }
@@ -137,7 +137,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     background-color: blanchedalmond;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 
 .cart-items{
