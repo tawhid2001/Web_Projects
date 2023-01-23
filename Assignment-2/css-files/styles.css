@@ -1,0 +1,63 @@
+/* common styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Top banner Styles */
+.Top-Banner {
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    width: 1300px;
+    height: 646px;
+}
+
+.Top-info {
+    width: 50%;
+    color: #FFFFFF;
+}
+
+.Top-info h1 {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.Top-info p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.Top-info a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.img-container{
+    margin-top: 33px;
+
+}
+
+.img-container img{
+    width: 581px;
+    height: 613px;
+}
+
+/* blog section design */
+
+.menu{
+    background-color: #161616;
+}
+
+.option{
+    background: #FFFFFF;
+}
