@@ -58,7 +58,7 @@ section {
 
 /* blog section design */
 
-.blog-section {
+.container {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 30px;
@@ -91,7 +91,7 @@ section {
     border-radius: 10px;
 }
 
-.selected{
+.selected {
     background-color: #DD0000;
     color: #FFFFFF;
 }
@@ -135,11 +135,76 @@ footer {
     font-size: 40px;
 }
 
-.policy{
+.policy {
     display: flex;
     font-size: 16px;
 }
 
-.policy div{
+.box1,.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 div,.box2 div{
     margin: 40px;
+}
+
+/* responsive styles */
+/* for mobile devices */
+@media screen and(max-width: 688px) {
+    
+}
+
+
+/* for tablets */
+@media screen and (min-width: 689px) and (max-width: 1300px) {
+
+
+    .Top-Banner {
+        height: 398px;
+    }
+
+    .Top-info h1 {
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .img-container img {
+        width: 323px;
+        height: 340px;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .menu {
+        background-color: #FFFFFF;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 130px;
+    }
+
+    .option {
+        border: 1px solid #E8E8E8;
+    }
+
+    .blog-content {
+        grid-template-columns: repeat(2, 1fr);
+        height: 1160px;
+        overflow: hidden;
+    }
+
+    footer {
+        height: 345px;
+    }
+
+    .policy{
+        flex-direction: column;
+    }
 }
