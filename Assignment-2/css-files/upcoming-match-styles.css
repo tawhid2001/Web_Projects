@@ -17,10 +17,19 @@
     justify-content: center;
     align-items: center;
 }
+
+.team div{
+    padding: 10px;
+}
 .time p{
     color: #4D4D4D;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.time h2{
+    font-size: 20px;
+    font-weight: 600;
 }
