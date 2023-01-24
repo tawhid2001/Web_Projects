@@ -1,0 +1,26 @@
+.schedule-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+
+.schedule{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.schedule .team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time p{
+    color: #4D4D4D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
