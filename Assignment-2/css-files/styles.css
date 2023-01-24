@@ -61,6 +61,7 @@ section {
 .blog-section {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }
 
 .menu {
@@ -127,12 +128,11 @@ footer {
     font-size: 40px;
 }
 
-hr{
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
 .policy{
     display: flex;
     font-size: 16px;
-    justify-content: space-around;
+}
+
+.policy div{
+    margin: 40px;
 }
