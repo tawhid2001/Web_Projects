@@ -122,7 +122,7 @@ section {
     align-items: center;
 }
 
-.viewallOption{
+.viewallOption {
     display: none;
 }
 
@@ -145,20 +145,110 @@ footer {
     font-size: 16px;
 }
 
-.box1,.box2{
+.box1,
+.box2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.box1 div,.box2 div{
+.box1 div,
+.box2 div {
     margin: 40px;
 }
 
 /* responsive styles */
 /* for mobile devices */
-@media screen and(max-width: 688px) {
-    
+
+@media screen and (max-width: 688px) {
+
+    .Top-Banner {
+        height: 530px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Top-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Top-info h1 {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .Top-info p {
+        height: 45px;
+        overflow: hidden;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .img-container img {
+        width: 233px;
+        height: 245px;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .menu {
+        background-color: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+        width: 235px;
+        height: 180px;
+        position: relative;
+    }
+
+    .option {
+        border: 1px solid #E8E8E8;
+        font-size: 18px;
+        width: 210px;
+        height: 48px;
+    }
+
+    .blog-content {
+        grid-template-columns: repeat(1, 1fr);
+        height: 2306px;
+        overflow: hidden;
+    }
+
+    footer {
+        width: 100%;
+        height: 412px;
+    }
+
+    footer p {
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .policy {
+        flex-direction: column;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .box1,
+    .box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .box1 div,
+    .box2 div {
+        margin: 10px;
+    }
 }
 
 
@@ -173,6 +263,7 @@ footer {
     .Top-info h1 {
         font-weight: 700;
         font-size: 40px;
+        margin: 5px;
     }
 
     .img-container img {
@@ -195,6 +286,7 @@ footer {
         height: 130px;
     }
 
+
     .option {
         border: 1px solid #E8E8E8;
         font-size: 18px;
@@ -206,7 +298,7 @@ footer {
         overflow: hidden;
     }
 
-    .viewallOption{
+    .viewallOption {
         display: block;
     }
 
@@ -214,7 +306,7 @@ footer {
         height: 345px;
     }
 
-    .policy{
+    .policy {
         flex-direction: column;
     }
 }
