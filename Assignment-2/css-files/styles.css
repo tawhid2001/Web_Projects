@@ -188,9 +188,16 @@ footer {
         font-size: 14px;
     }
 
+    .img-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 52%;
+    }
+
     .img-container img {
-        width: 233px;
-        height: 245px;
+        width: 73%;
+        height: 92%;
     }
 
     .container {
