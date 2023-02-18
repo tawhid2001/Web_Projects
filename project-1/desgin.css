@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+p {
+    color: beige;
+    background-color: black;
+    width: 95%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    text-align: justify;
+    margin: 2px;
+}
+
 .img {
     display: flex;
     flex-direction: row;
@@ -47,17 +57,6 @@ body {
     background-color: whitesmoke;
 }
 
-p {
-    color: beige;
-    background-color: black;
-    width: 95%;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    text-align: justify;
-    margin: 2px;
-}
-
-
 .lorem300 p {
     color: black;
     background-color: cornsilk;
@@ -81,6 +80,18 @@ p {
     border-radius: 5px;
 }
 
+
+#comment-container p{
+    background-color: aliceblue;
+    color: #000000;
+    border: 2px solid white;
+}
+
+.textarea-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .normal {
     text-align: left;
     color: black;
